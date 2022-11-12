@@ -13,4 +13,5 @@ Du har kommit till min portfolio. Mycket tid gick åt till felsökning och orien
 Jag är helt ny på i stort sett hela teknikpaketet, så här kommer en hjälpligt stylad sida med en snabbt tagen bild på mitt skrivbord och en stockbild från världens längsta skridskobana - något barnen ser fram emot att halka på till vintern. 
 
 ![min bild](%assets_url%/img/desk.jpg) {.img-control} Mitt skrivbord
+
 ![Rideau](https://upload.wikimedia.org/wikipedia/commons/1/11/Rideau_Canal_in_winter.jpg) {.img-control} Rideau Canal på vintern

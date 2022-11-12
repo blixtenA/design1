@@ -77,7 +77,7 @@ using the <code>&#37;assets_url&#37;</code> placeholder, for example:
 
 ### Text File Markup
 
-Text files are marked up using [Markdown][] and [Markdown Extra][MarkdownExtra].
+Text files are marked up using [Markdown][] and [Markdown Extra][MarkdownExtra]. 
 They can also contain regular HTML.
 
 At the top of text files you can place a block comment and specify certain meta
