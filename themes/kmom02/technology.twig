@@ -1,0 +1,53 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    
+    <div class="tech-main" role="main">
+        <div class="tech-landingpage">
+
+            <div class="grid wrap_tech">
+            
+                <div class="sidebar">
+                    <ul>
+                        <li>
+                        <a href="css">CSS
+                        <i class="fab fa-css3-alt"></i></a>
+                        </li>
+                        <li>
+                        <a href="git">GIT
+                        <i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                        <a href="html">HTML
+                        <i class="fab fa-html5"></i></a>
+                        </li>
+                        <li>
+                        <a href="javascript">JavaScript
+                        <i class="fab fa-square-js"></i></a>
+                        </li>
+                        <li>
+                        <a href="php">PHP
+                        <i class="fab fa-php"></i></a>
+                        </li>
+                        <li>
+                        <a href="python">Python
+                        <i class="fab fa-python"></i></a>
+                        </li>
+                        <li>
+                        <a href="sqlite">SQlite</a>
+                        </li>
+                        </ul>
+                </div>
+                <div class="page-content">
+                {{ content }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* technologies.scss */
+* {
+    box-sizing: border-box;
+}
+
+.tech-landingpage {
+    display: grid;
+    gap: 1em 1em;
+    background-color: rgb(138, 126, 126);
+    border: 5px solid #961919;
+    padding: 5%;
+}
+
+.tech-main {
+    background-color: #961919;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.wrap-tech {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 50px;
+    gap: 1em 1em;
+}
+
+/*.header {
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+}*/
+
+.sidebar {
+    background-color: #bdaaaa;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    line-height: 200%;
+}
+
+.sidebar li {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page-content {
+    /*background-color: rgb(135, 151, 151); */
+    grid-column: 2;
+    grid-row: 2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.tech-landingpage h1 {
+    color: #faebd7;
+}
+
+@media only screen and (max-device-width: 720px) {
+    .sidebar {
+        visibility: hidden;
+    }
+    
+    .page-content {
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 320px;
+    }
+}

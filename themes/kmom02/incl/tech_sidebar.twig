@@ -1,0 +1,15 @@
+<div class="side" role="toolbar">
+    <div class="sidebar">
+
+    <div class="nav">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages("technology") if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
