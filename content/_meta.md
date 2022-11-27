@@ -9,4 +9,10 @@ Social:
     - title2: Link till markdown
       url2: https://www.markdownguide.org/
       icon2: fab fa-markdown  
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

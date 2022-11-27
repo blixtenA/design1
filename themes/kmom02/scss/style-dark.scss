@@ -17,13 +17,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
-    background-color: $background-color;
+    background-color: $background-color-dark;
     display: flex;
     flex-direction: column;
 }
 
 * {
-    color: $font-color;
+    color: $font-color-dark;
 }
 
 * {
@@ -43,14 +43,9 @@ body {
     padding-left: 1%;
 }
 
-.narrow {
-    max-width: 700px;
-}
-
 .header,
 .footer {
     flex: 0 0 auto;
-    padding-left: 3%;
 }
 
 .img-control {
@@ -100,6 +95,7 @@ body {
     max-width: 30%;
     border-radius: 10px;
     align-items: center;
+    filter: brightness(80%);
 }
 
 * {
@@ -113,12 +109,94 @@ body {
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: $background-alternative-color;
+    background-color: $background-alternative-color-dark;
     margin-bottom: 1%;
 }
 
+.title * {
+    color: $font-color-dark;
+}
+
+.nav * {
+    color: $font-color-dark;
+}
+
+a:visited {
+    color: $font-color-dark;
+}
+
+a:link {
+    color: $font-color-dark;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: $background-alternative-color-dark;
+    color: $font-color;
+}
+
+.footer p {
+    color: $font-color-dark;
+}
+
+.footer a {
+    color: $font-color-dark;
+}
+
+.tech-box a {
+    color: $font-color-dark;
+}
+
+.tech-box {
+    background-color: $box-color;
+    border: 5px solid $background-color-dark;
+}
+
+.landingpage {
+    border: 5px solid $box-color;
+}
+
+.tech-box a:visited {
+    color: $font-color-dark;
+}
+
+.fab {
+    color: $font-color-dark;
+}
+
+.fas {
+    color: $font-color-dark;
+}
+
+.landingpage {
+    background-color: $background-content-dark;
+}
+
+.main {
+    color: $font-color-dark;;
+}
+
+.tech-landingpage {
+    background-color: $background-content-dark;
+    border: 5px solid $background-alternative-color-dark;
+}
+
+.tech-landingpage h1 {
+    color: $font-color-dark;
+}
+
+.sidebar {
+    background-color: $background-color-dark;
+}
+
+code {
+    color: $font-color;
+}
+
 .landingpage-analysis {
-    background-color: $background-content;
+    background-color: $background-alternative-color-dark;
     border: 5px solid $box-color;
     padding-left: 20%;
     padding-right: 20%;

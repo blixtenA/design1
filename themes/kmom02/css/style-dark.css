@@ -6677,13 +6677,13 @@ pre code {
   }
 }
 body {
-  background-color: #C43400;
+  background-color: rgb(29, 28, 26);
   display: flex;
   flex-direction: column;
 }
 
 * {
-  color: #000;
+  color: rgb(240, 239, 238);
 }
 
 * {
@@ -6703,14 +6703,9 @@ body {
   padding-left: 1%;
 }
 
-.narrow {
-  max-width: 700px;
-}
-
 .header,
 .footer {
   flex: 0 0 auto;
-  padding-left: 3%;
 }
 
 .img-control {
@@ -6760,6 +6755,7 @@ body {
   max-width: 30%;
   border-radius: 10px;
   align-items: center;
+  filter: brightness(80%);
 }
 
 * {
@@ -6773,12 +6769,94 @@ body {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #FF8D64;
+  background-color: rgb(109, 105, 99);
   margin-bottom: 1%;
 }
 
+.title * {
+  color: rgb(240, 239, 238);
+}
+
+.nav * {
+  color: rgb(240, 239, 238);
+}
+
+a:visited {
+  color: rgb(240, 239, 238);
+}
+
+a:link {
+  color: rgb(240, 239, 238);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+  background-color: rgb(109, 105, 99);
+  color: #000;
+}
+
+.footer p {
+  color: rgb(240, 239, 238);
+}
+
+.footer a {
+  color: rgb(240, 239, 238);
+}
+
+.tech-box a {
+  color: rgb(240, 239, 238);
+}
+
+.tech-box {
+  background-color: #007860;
+  border: 5px solid rgb(29, 28, 26);
+}
+
+.landingpage {
+  border: 5px solid #007860;
+}
+
+.tech-box a:visited {
+  color: rgb(240, 239, 238);
+}
+
+.fab {
+  color: rgb(240, 239, 238);
+}
+
+.fas {
+  color: rgb(240, 239, 238);
+}
+
+.landingpage {
+  background-color: rgb(141, 99, 99);
+}
+
+.main {
+  color: rgb(240, 239, 238);
+}
+
+.tech-landingpage {
+  background-color: rgb(141, 99, 99);
+  border: 5px solid rgb(109, 105, 99);
+}
+
+.tech-landingpage h1 {
+  color: rgb(240, 239, 238);
+}
+
+.sidebar {
+  background-color: rgb(29, 28, 26);
+}
+
+code {
+  color: black;
+}
+
 .landingpage-analysis {
-  background-color: white;
+  background-color: rgb(109, 105, 99);
   border: 5px solid #007860;
   padding-left: 20%;
   padding-right: 20%;

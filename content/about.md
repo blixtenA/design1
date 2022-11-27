@@ -1,6 +1,7 @@
 ---
 Title: About
 Description: This is my ABOUT page.
+Template: analysis
 ---
 
 About page
@@ -30,3 +31,14 @@ https://picocms.org/
 Versionshantering 
 https://github.com/
 
+###Sidans färgschema, ljust: 
+https://color.adobe.com/create/color-wheel
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #782000">
+<td style="height: 50px; width: 50px; background-color: #FF8D64">
+<td style="height: 50px; width: 50px; background-color: #C43400">
+<td style="height: 50px; width: 50px; background-color: #007860">
+<td style="height: 50px; width: 50px; background-color: #83DECC">
+</tr>
+</table>
