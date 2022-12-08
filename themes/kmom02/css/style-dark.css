@@ -6462,7 +6462,7 @@ pre code {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #FF8D64;
+  background-color: #ff8d64;
 }
 
 .footer a {
@@ -6509,10 +6509,10 @@ pre code {
 .landingpage {
   display: grid;
   gap: 1em 1em;
-  background-color: white;
+  background-color: #fff;
   margin: 3%;
   padding: 5%;
-  border: 5px solid #83DECC;
+  border: 5px solid #83decc;
 }
 
 .landingpage h1 {
@@ -6525,7 +6525,7 @@ pre code {
   text-align: center;
   color: #fff;
   border-radius: 10px;
-  border: 5px solid #83DECC;
+  border: 5px solid #83decc;
 }
 
 .tech-box a {
@@ -6617,13 +6617,13 @@ pre code {
 .tech-landingpage {
   display: grid;
   gap: 1em 1em;
-  background-color: white;
-  border: 5px solid #83DECC;
+  background-color: #fff;
+  border: 5px solid #83decc;
   padding: 5%;
 }
 
 .tech-main {
-  background-color: #FF8D64;
+  background-color: #ff8d64;
 }
 
 .grid {
@@ -6640,7 +6640,7 @@ pre code {
 }
 
 .sidebar {
-  background-color: #83DECC;
+  background-color: #83decc;
   grid-column: 1;
   grid-row: 2;
   padding: 10px;
@@ -6852,7 +6852,7 @@ a:link {
 }
 
 code {
-  color: black;
+  color: #000;
 }
 
 .landingpage-analysis {
