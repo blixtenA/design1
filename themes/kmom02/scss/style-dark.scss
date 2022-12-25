@@ -13,6 +13,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'title';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
@@ -200,4 +201,9 @@ code {
     border: 5px solid $box-color;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+b,
+strong {
+    color: $box-color;
 }

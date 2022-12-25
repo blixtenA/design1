@@ -11,27 +11,27 @@ The source for this page is in `content/about.md`.
 
 Den här sidan använder bland annat dessa tekniker:<br>
 <br>
-###Markdown
+#Markdown
 En teknik för att lägga till formatering till rena textdokument.
 https://www.markdownguide.org/
 
-###Twig
+#Twig
 En motor som kompilerar mallar till optimerad PHP-kod.
 https://twig.symfony.com/
 
-###Composer 
+#Composer 
 En teknik som hanterar beroenden i PHP och hanterar projektbiblioteken.
 https://getcomposer.org/
 
-###Pico
+#Pico
 Ett CMS-ramverk
 https://picocms.org/
 
-###Github
+#Github
 Versionshantering 
 https://github.com/
 
-###Sidans färgschema, ljust: 
+#Sidans färgschema, ljust: 
 https://color.adobe.com/create/color-wheel
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>

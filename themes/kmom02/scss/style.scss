@@ -18,9 +18,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
-    background-color: $background-color;
     display: flex;
     flex-direction: column;
+    background:
+    linear-gradient(45deg, $background-color 45px, transparent 45px)64px 64px,
+    linear-gradient(45deg, $background-color 45px, transparent 45px, transparent 91px, $accent-color 91px, $box-color, transparent 135px),
+    linear-gradient(-45deg, $background-color 23px, transparent 23px, transparent 68px, $accent-color 68px, $background-alternative-color 113px, transparent 113px, transparent 158px, $background-alternative-color 158px);
+    background-color: $background-color;
+    background-size: 128px 128px; 
 }
 
 * {
@@ -41,7 +46,9 @@ body {
 
 .main {
     flex: 1 0 auto;
-    padding-left: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 10;
 }
 
 .narrow {
@@ -57,6 +64,8 @@ body {
 .img-control {
     max-width: 500px;
     border-radius: 10px;
+    align-items: center;
+    margin: auto;
 }
 
 h1,
@@ -92,7 +101,10 @@ ul {
     display: none !important;
 }
 
-html,
+html {
+    height: 100%;
+}
+
 body {
     height: 100%;
 }
@@ -100,7 +112,6 @@ body {
 .img-control {
     max-width: 30%;
     border-radius: 10px;
-    align-items: center;
 }
 
 * {
@@ -124,3 +135,4 @@ body {
     padding-left: 20%;
     padding-right: 20%;
 }
+

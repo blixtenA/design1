@@ -4,7 +4,7 @@ Description: This is my load page.
 Template: analysis
 ---
 
-# Colors
+# Load
 
 I den här uppgiften ska vi analysera tre websidor utifrån ett laddningsperspektiv / prestanda. Vikan jobba ensamma eller i grupp. Jag valde att jobba ensam, dels eftersom jag sitter i en annan tidszon och dels eftersom jag fortfarande har tappat rösten - inga större möjligheter att bolla med någon den här veckan. 
 
@@ -20,7 +20,7 @@ Det jag uppfattar som en snabb webplats är generellt laddningstider under 2 sek
 
 # Resultat
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTZSV34Zlfg2Ug2o7oV1vv_b665naRm1PJvFH4llB-acyL6eJ4AAtaRc73C4K-ODWP8Cp_FJRM9HOeW/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTZSV34Zlfg2Ug2o7oV1vv_b665naRm1PJvFH4llB-acyL6eJ4AAtaRc73C4K-ODWP8Cp_FJRM9HOeW/pubhtml?widget=true&amp;headers=false" title="Excel document"></iframe>
 
 Farley Mowat Public School fick den lägsta Performance-poängen i testet - 3 på mobil. Detta förvånade mig mycket då mobilversionen av siten är förhållandevis slimmad och fungerar relativt bra rent funktionellt jämfört med desktop-versionen - förutom att skolans Twitterflöde är inkluderat på ett sätt som gör att man "fastnar" i ett subfönster och scrollar på sidans Tweets istället för att komma längre ner på skolans huvudsida. 
 

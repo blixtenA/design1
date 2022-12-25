@@ -6526,6 +6526,7 @@ pre code {
   color: #fff;
   border-radius: 10px;
   border: 5px solid #83decc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tech-box a {
@@ -6679,7 +6680,6 @@ pre code {
 /* gallery.scss */
 * {
   box-sizing: border-box;
-  border: none;
 }
 
 .landingpage-gallery {
@@ -6694,6 +6694,7 @@ pre code {
 .landingpage-gallery h1 {
   grid-column: span 3;
   text-align: center;
+  color: #000;
 }
 
 .gallery-box {
@@ -6779,9 +6780,11 @@ pre code {
 }
 
 body {
-  background-color: #c43400;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(45deg, #c43400 45px, transparent 45px) 64px 64px, linear-gradient(45deg, #c43400 45px, transparent 45px, transparent 91px, #83decc 91px, #007860, transparent 135px), linear-gradient(-45deg, #c43400 23px, transparent 23px, transparent 68px, #83decc 68px, #ff8d64 113px, transparent 113px, transparent 158px, #ff8d64 158px);
+  background-color: #c43400;
+  background-size: 128px 128px;
 }
 
 * {
@@ -6802,7 +6805,9 @@ body {
 
 .main {
   flex: 1 0 auto;
-  padding-left: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 10;
 }
 
 .narrow {
@@ -6818,6 +6823,8 @@ body {
 .img-control {
   max-width: 500px;
   border-radius: 10px;
+  align-items: center;
+  margin: auto;
 }
 
 h1,
@@ -6853,7 +6860,10 @@ ul {
   display: none !important;
 }
 
-html,
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
 }
@@ -6861,7 +6871,6 @@ body {
 .img-control {
   max-width: 30%;
   border-radius: 10px;
-  align-items: center;
 }
 
 * {
