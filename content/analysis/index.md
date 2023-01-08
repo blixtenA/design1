@@ -18,6 +18,10 @@ Analysis
 </a>
 </div>
 
-<div class="tech-box wide">
+<div class="tech-box stubby">
 <a href="analysis/03_design_principles">Design principles
+</div>
+
+<div class="tech-box large">
+<a href="analysis/10_webbplatsdesign">Webbplatsdesign
 </div>
